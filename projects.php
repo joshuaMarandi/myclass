@@ -1,4 +1,4 @@
-
+//new design of the blog
 
 <?php 
 
