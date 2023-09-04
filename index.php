@@ -114,7 +114,7 @@ if (isset($_POST['post_comment'])) {
     background-color: #3498db;
     color: #fff;
     border: none;
-    cursor: pointer;
+    cursor: none;
 }
 
 .post form button:hover {
