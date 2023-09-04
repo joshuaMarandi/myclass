@@ -2,6 +2,7 @@
 include  'connection.php';
 if (isset($_POST['submit']))
 {
+
   $name=$_POST['name'];
   $email=$_POST['email'];
   $phone=$_POST['phone'];
@@ -14,7 +15,7 @@ if($result)
     echo "Data inserted succesful";
 }
 else{
-    die (mysqli_error($con));
+//    die (mysqli_error($con));
 }
 }
 
