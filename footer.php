@@ -7,6 +7,7 @@
 	<title>footer</title>
 </head>
 <body>
+	
 <footer style="color: white; font-size:30px">
 		Copyright@<?php echo date("Y,m")?>
 	</footer>
